@@ -1,0 +1,191 @@
+<html>
+<head>
+<title>TestNG:  Test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>8/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Wed May 31 11:45:53 IST 2023</td>
+</tr>
+<tr><td>Total time:</td><td>69 seconds (69530 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td><b>Attribute(s)</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.travel.ujetix.Issues.Test.VerifyCreatePackageAndUpdateRemarkOfCreatedIssueTest.verifyCreatePackageAndUpdateRemarkOfCreatedIssueTest()'><b>verifyCreatePackageAndUpdateRemarkOfCreatedIssueTest</b><br>Test class: com.travel.ujetix.Issues.Test.VerifyCreatePackageAndUpdateRemarkOfCreatedIssueTest<br/>
+<a href="#Output-1720064983" onClick='toggleBox("Output-1720064983", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1720064983" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1720064983">
+Package is created<br/>
+Package Is Present<br/>
+Logout as user Successfull<br/>
+Admin Login Successful<br/>
+</div>
+</td>
+<td></td>
+<td>48</td>
+<td>com.travel.ujetix.Issues.Test.VerifyCreatePackageAndUpdateRemarkOfCreatedIssueTest@34123d65</td></tr>
+<tr>
+<td title='com.travel.ujetix.Issues.Test.CreateIssueAndVerifyAdminRemarkInUserTest.createIssueAndVerifyAdminRemarkInUserTest()'><b>createIssueAndVerifyAdminRemarkInUserTest</b><br>Test class: com.travel.ujetix.Issues.Test.CreateIssueAndVerifyAdminRemarkInUserTest<br/>
+<a href="#Output-1665399680" onClick='toggleBox("Output-1665399680", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1665399680" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1665399680">
+Issue Created<br/>
+Admin login Successful<br/>
+Remark updated Successfully<br/>
+User Logout Successful<br/>
+</div>
+</td>
+<td></td>
+<td>42</td>
+<td>com.travel.ujetix.Issues.Test.CreateIssueAndVerifyAdminRemarkInUserTest@1bb5a082</td></tr>
+<tr>
+<td title='com.travel.ujetix.ManageBooking.Test.ConfirmBookingAsAdminAnVerifyAsUserTest.confirmBookingAsAdminAnVerifyAsUserTest()'><b>confirmBookingAsAdminAnVerifyAsUserTest</b><br>Test class: com.travel.ujetix.ManageBooking.Test.ConfirmBookingAsAdminAnVerifyAsUserTest<br/>
+<a href="#Output-406183510" onClick='toggleBox("Output-406183510", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-406183510" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-406183510">
+Booked package Successfully<br/>
+</div>
+</td>
+<td></td>
+<td>46</td>
+<td>com.travel.ujetix.ManageBooking.Test.ConfirmBookingAsAdminAnVerifyAsUserTest@59474f18</td></tr>
+<tr>
+<td title='com.travel.ujetix.TourPackage.Test.CreateTourPackageTest.createTourPackageTest()'><b>createTourPackageTest</b><br>Test class: com.travel.ujetix.TourPackage.Test.CreateTourPackageTest<br/>
+<a href="#Output-175174612" onClick='toggleBox("Output-175174612", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-175174612" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-175174612">
+HappyJourney1165 Package is created <br/>
+</div>
+</td>
+<td></td>
+<td>43</td>
+<td>com.travel.ujetix.TourPackage.Test.CreateTourPackageTest@3e694b3f</td></tr>
+<tr>
+<td title='com.travel.ujetix.SignUp.Test.CreateUserAndUpdateUsernameTest.createUserAndUpdateUsernameTest()'><b>createUserAndUpdateUsernameTest</b><br>Test class: com.travel.ujetix.SignUp.Test.CreateUserAndUpdateUsernameTest<br/>
+<a href="#Output-369792518" onClick='toggleBox("Output-369792518", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-369792518" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-369792518">
+Account created successfully<br/>
+Username updated successfully<br/>
+Logout Successfull<br/>
+</div>
+</td>
+<td></td>
+<td>32</td>
+<td>com.travel.ujetix.SignUp.Test.CreateUserAndUpdateUsernameTest@41d477ed</td></tr>
+<tr>
+<td title='com.travel.ujetix.TourPackage.Test.CreatePackageAndEnquiryForItTest.createPackageAndEnquiryForItTest()'><b>createPackageAndEnquiryForItTest</b><br>Test class: com.travel.ujetix.TourPackage.Test.CreatePackageAndEnquiryForItTest<br/>
+<a href="#Output-1688676635" onClick='toggleBox("Output-1688676635", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1688676635" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1688676635">
+Package is present<br/>
+Enquiry is created<br/>
+</div>
+</td>
+<td></td>
+<td>37</td>
+<td>com.travel.ujetix.TourPackage.Test.CreatePackageAndEnquiryForItTest@65fb9ffc</td></tr>
+<tr>
+<td title='com.travel.ujetix.TourPackage.Test.BookTourPackageTest.bookTourPackageTest()'><b>bookTourPackageTest</b><br>Test class: com.travel.ujetix.TourPackage.Test.BookTourPackageTest<br/>
+<a href="#Output-1173029878" onClick='toggleBox("Output-1173029878", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1173029878" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1173029878">
+Booked package Successfully<br/>
+</div>
+</td>
+<td></td>
+<td>28</td>
+<td>com.travel.ujetix.TourPackage.Test.BookTourPackageTest@78691363</td></tr>
+<tr>
+<td title='com.travel.ujetix.Issues.Test.VerifyCreatePackageAndCheckStatusOfCreatedIssueTest.verifyCreatePackageAndCheckStatusOfCreatedIssueTest()'><b>verifyCreatePackageAndCheckStatusOfCreatedIssueTest</b><br>Test class: com.travel.ujetix.Issues.Test.VerifyCreatePackageAndCheckStatusOfCreatedIssueTest<br/>
+<a href="#Output-316447090" onClick='toggleBox("Output-316447090", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-316447090" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-316447090">
+Package created successfully<br/>
+Package is present<br/>
+Issue is created<br/>
+Admin LogIn Successful<br/>
+Admin remark Updated Successful<br/>
+User Logout<br/>
+Admin Login<br/>
+</div>
+</td>
+<td></td>
+<td>52</td>
+<td>com.travel.ujetix.Issues.Test.VerifyCreatePackageAndCheckStatusOfCreatedIssueTest@5656be13</td></tr>
+</table><p>
+</body>
+</html>

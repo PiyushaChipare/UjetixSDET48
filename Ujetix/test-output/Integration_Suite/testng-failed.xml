@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Integration_Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Integration_Test(failed)">
+    <groups>
+      <run>
+        <include name="integrationTest"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="com.travel.ujetix.ManageBooking.Test.ConfirmBookingAsAdminAnVerifyAsUserTest">
+        <methods>
+          <include name="config_BM"/>
+          <include name="config_BC"/>
+          <include name="config_BS"/>
+          <include name="config_AC"/>
+          <include name="config_AS"/>
+          <include name="config_AM"/>
+          <include name="confirmBookingAsAdminAnVerifyAsUserTest"/>
+        </methods>
+      </class> <!-- com.travel.ujetix.ManageBooking.Test.ConfirmBookingAsAdminAnVerifyAsUserTest -->
+    </classes>
+  </test> <!-- Integration_Test(failed) -->
+</suite> <!-- Failed suite [Integration_Suite] -->

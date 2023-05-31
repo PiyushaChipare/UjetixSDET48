@@ -1,0 +1,340 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="14" total="22" passed="8" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[Issue Created]]>
+    </line>
+    <line>
+      <![CDATA[Package created successfully]]>
+    </line>
+    <line>
+      <![CDATA[Account created successfully]]>
+    </line>
+    <line>
+      <![CDATA[Admin login Successful]]>
+    </line>
+    <line>
+      <![CDATA[Booked package Successfully]]>
+    </line>
+    <line>
+      <![CDATA[Booked package Successfully]]>
+    </line>
+    <line>
+      <![CDATA[Package is created]]>
+    </line>
+    <line>
+      <![CDATA[Package is present]]>
+    </line>
+    <line>
+      <![CDATA[Username updated successfully]]>
+    </line>
+    <line>
+      <![CDATA[Enquiry is created]]>
+    </line>
+    <line>
+      <![CDATA[Logout Successfull]]>
+    </line>
+    <line>
+      <![CDATA[Package is present]]>
+    </line>
+    <line>
+      <![CDATA[Remark updated Successfully]]>
+    </line>
+    <line>
+      <![CDATA[User Logout Successful]]>
+    </line>
+    <line>
+      <![CDATA[Package Is Present]]>
+    </line>
+    <line>
+      <![CDATA[HappyJourney1165 Package is created ]]>
+    </line>
+    <line>
+      <![CDATA[Issue is created]]>
+    </line>
+    <line>
+      <![CDATA[Admin LogIn Successful]]>
+    </line>
+    <line>
+      <![CDATA[Logout as user Successfull]]>
+    </line>
+    <line>
+      <![CDATA[Admin Login Successful]]>
+    </line>
+    <line>
+      <![CDATA[Admin remark Updated Successful]]>
+    </line>
+    <line>
+      <![CDATA[User Logout]]>
+    </line>
+    <line>
+      <![CDATA[Admin Login]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2023-05-31T11:45:53 IST" name="Suite" finished-at="2023-05-31T11:47:03 IST" duration-ms="69530">
+    <groups>
+      <group name="integrationTest">
+        <method signature="ConfirmBookingAsAdminAnVerifyAsUserTest.confirmBookingAsAdminAnVerifyAsUserTest()[pri:0, instance:com.travel.ujetix.ManageBooking.Test.ConfirmBookingAsAdminAnVerifyAsUserTest@59474f18]" name="confirmBookingAsAdminAnVerifyAsUserTest" class="com.travel.ujetix.ManageBooking.Test.ConfirmBookingAsAdminAnVerifyAsUserTest"/>
+        <method signature="CreateTourPackageTest.createTourPackageTest()[pri:0, instance:com.travel.ujetix.TourPackage.Test.CreateTourPackageTest@3e694b3f]" name="createTourPackageTest" class="com.travel.ujetix.TourPackage.Test.CreateTourPackageTest"/>
+      </group> <!-- integrationTest -->
+      <group name="smokeTest">
+        <method signature="BookTourPackageTest.bookTourPackageTest()[pri:0, instance:com.travel.ujetix.TourPackage.Test.BookTourPackageTest@78691363]" name="bookTourPackageTest" class="com.travel.ujetix.TourPackage.Test.BookTourPackageTest"/>
+      </group> <!-- smokeTest -->
+    </groups>
+    <test started-at="2023-05-31T11:45:53 IST" name="Test" finished-at="2023-05-31T11:47:03 IST" duration-ms="69530">
+      <class name="com.travel.ujetix.Issues.Test.VerifyCreatePackageAndUpdateRemarkOfCreatedIssueTest">
+        <test-method is-config="true" signature="config_BC()[pri:0, instance:com.travel.ujetix.Issues.Test.VerifyCreatePackageAndUpdateRemarkOfCreatedIssueTest@34123d65]" started-at="2023-05-31T11:45:53 IST" name="config_BC" finished-at="2023-05-31T11:46:00 IST" duration-ms="6659" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- config_BC -->
+        <test-method is-config="true" signature="config_BM()[pri:0, instance:com.travel.ujetix.Issues.Test.VerifyCreatePackageAndUpdateRemarkOfCreatedIssueTest@34123d65]" started-at="2023-05-31T11:46:00 IST" name="config_BM" finished-at="2023-05-31T11:46:10 IST" duration-ms="9609" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- config_BM -->
+        <test-method signature="verifyCreatePackageAndUpdateRemarkOfCreatedIssueTest()[pri:0, instance:com.travel.ujetix.Issues.Test.VerifyCreatePackageAndUpdateRemarkOfCreatedIssueTest@34123d65]" started-at="2023-05-31T11:46:10 IST" name="verifyCreatePackageAndUpdateRemarkOfCreatedIssueTest" finished-at="2023-05-31T11:46:58 IST" duration-ms="48285" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Package is created]]>
+            </line>
+            <line>
+              <![CDATA[Package Is Present]]>
+            </line>
+            <line>
+              <![CDATA[Logout as user Successfull]]>
+            </line>
+            <line>
+              <![CDATA[Admin Login Successful]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyCreatePackageAndUpdateRemarkOfCreatedIssueTest -->
+        <test-method is-config="true" signature="config_AM()[pri:0, instance:com.travel.ujetix.Issues.Test.VerifyCreatePackageAndUpdateRemarkOfCreatedIssueTest@34123d65]" started-at="2023-05-31T11:46:58 IST" name="config_AM" finished-at="2023-05-31T11:46:59 IST" duration-ms="682" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- config_AM -->
+        <test-method is-config="true" signature="config_AC()[pri:0, instance:com.travel.ujetix.Issues.Test.VerifyCreatePackageAndUpdateRemarkOfCreatedIssueTest@34123d65]" started-at="2023-05-31T11:46:59 IST" name="config_AC" finished-at="2023-05-31T11:46:59 IST" duration-ms="459" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- config_AC -->
+      </class> <!-- com.travel.ujetix.Issues.Test.VerifyCreatePackageAndUpdateRemarkOfCreatedIssueTest -->
+      <class name="com.travel.ujetix.Issues.Test.VerifyCreatePackageAndCheckStatusOfCreatedIssueTest">
+        <test-method is-config="true" signature="config_BS()[pri:0, instance:com.travel.ujetix.Issues.Test.VerifyCreatePackageAndCheckStatusOfCreatedIssueTest@5656be13]" started-at="2023-05-31T11:45:53 IST" name="config_BS" finished-at="2023-05-31T11:45:53 IST" duration-ms="204" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- config_BS -->
+        <test-method is-config="true" signature="config_BC()[pri:0, instance:com.travel.ujetix.Issues.Test.VerifyCreatePackageAndCheckStatusOfCreatedIssueTest@5656be13]" started-at="2023-05-31T11:45:53 IST" name="config_BC" finished-at="2023-05-31T11:45:59 IST" duration-ms="6098" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- config_BC -->
+        <test-method is-config="true" signature="config_BM()[pri:0, instance:com.travel.ujetix.Issues.Test.VerifyCreatePackageAndCheckStatusOfCreatedIssueTest@5656be13]" started-at="2023-05-31T11:45:59 IST" name="config_BM" finished-at="2023-05-31T11:46:09 IST" duration-ms="9717" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- config_BM -->
+        <test-method signature="verifyCreatePackageAndCheckStatusOfCreatedIssueTest()[pri:0, instance:com.travel.ujetix.Issues.Test.VerifyCreatePackageAndCheckStatusOfCreatedIssueTest@5656be13]" started-at="2023-05-31T11:46:09 IST" name="verifyCreatePackageAndCheckStatusOfCreatedIssueTest" finished-at="2023-05-31T11:47:02 IST" duration-ms="52764" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Package created successfully]]>
+            </line>
+            <line>
+              <![CDATA[Package is present]]>
+            </line>
+            <line>
+              <![CDATA[Issue is created]]>
+            </line>
+            <line>
+              <![CDATA[Admin LogIn Successful]]>
+            </line>
+            <line>
+              <![CDATA[Admin remark Updated Successful]]>
+            </line>
+            <line>
+              <![CDATA[User Logout]]>
+            </line>
+            <line>
+              <![CDATA[Admin Login]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyCreatePackageAndCheckStatusOfCreatedIssueTest -->
+        <test-method is-config="true" signature="config_AM()[pri:0, instance:com.travel.ujetix.Issues.Test.VerifyCreatePackageAndCheckStatusOfCreatedIssueTest@5656be13]" started-at="2023-05-31T11:47:02 IST" name="config_AM" finished-at="2023-05-31T11:47:02 IST" duration-ms="540" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- config_AM -->
+        <test-method is-config="true" signature="config_AC()[pri:0, instance:com.travel.ujetix.Issues.Test.VerifyCreatePackageAndCheckStatusOfCreatedIssueTest@5656be13]" started-at="2023-05-31T11:47:02 IST" name="config_AC" finished-at="2023-05-31T11:47:03 IST" duration-ms="365" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- config_AC -->
+        <test-method is-config="true" signature="config_AS()[pri:0, instance:com.travel.ujetix.Issues.Test.VerifyCreatePackageAndCheckStatusOfCreatedIssueTest@5656be13]" started-at="2023-05-31T11:47:03 IST" name="config_AS" finished-at="2023-05-31T11:47:03 IST" duration-ms="15" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- config_AS -->
+      </class> <!-- com.travel.ujetix.Issues.Test.VerifyCreatePackageAndCheckStatusOfCreatedIssueTest -->
+      <class name="com.travel.ujetix.TourPackage.Test.BookTourPackageTest">
+        <test-method is-config="true" signature="config_BC()[pri:0, instance:com.travel.ujetix.TourPackage.Test.BookTourPackageTest@78691363]" started-at="2023-05-31T11:45:53 IST" name="config_BC" finished-at="2023-05-31T11:46:00 IST" duration-ms="6380" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- config_BC -->
+        <test-method is-config="true" signature="config_BM()[pri:0, instance:com.travel.ujetix.TourPackage.Test.BookTourPackageTest@78691363]" started-at="2023-05-31T11:46:00 IST" name="config_BM" finished-at="2023-05-31T11:46:08 IST" duration-ms="8466" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- config_BM -->
+        <test-method signature="bookTourPackageTest()[pri:0, instance:com.travel.ujetix.TourPackage.Test.BookTourPackageTest@78691363]" started-at="2023-05-31T11:46:08 IST" name="bookTourPackageTest" finished-at="2023-05-31T11:46:36 IST" duration-ms="28185" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Booked package Successfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- bookTourPackageTest -->
+        <test-method is-config="true" signature="config_AM()[pri:0, instance:com.travel.ujetix.TourPackage.Test.BookTourPackageTest@78691363]" started-at="2023-05-31T11:46:36 IST" name="config_AM" finished-at="2023-05-31T11:46:40 IST" duration-ms="3137" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- config_AM -->
+        <test-method is-config="true" signature="config_AC()[pri:0, instance:com.travel.ujetix.TourPackage.Test.BookTourPackageTest@78691363]" started-at="2023-05-31T11:46:40 IST" name="config_AC" finished-at="2023-05-31T11:46:42 IST" duration-ms="2682" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- config_AC -->
+      </class> <!-- com.travel.ujetix.TourPackage.Test.BookTourPackageTest -->
+      <class name="com.travel.ujetix.TourPackage.Test.CreateTourPackageTest">
+        <test-method is-config="true" signature="config_BC()[pri:0, instance:com.travel.ujetix.TourPackage.Test.CreateTourPackageTest@3e694b3f]" started-at="2023-05-31T11:45:53 IST" name="config_BC" finished-at="2023-05-31T11:45:59 IST" duration-ms="5907" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- config_BC -->
+        <test-method is-config="true" signature="config_BM()[pri:0, instance:com.travel.ujetix.TourPackage.Test.CreateTourPackageTest@3e694b3f]" started-at="2023-05-31T11:45:59 IST" name="config_BM" finished-at="2023-05-31T11:46:09 IST" duration-ms="9653" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- config_BM -->
+        <test-method signature="createTourPackageTest()[pri:0, instance:com.travel.ujetix.TourPackage.Test.CreateTourPackageTest@3e694b3f]" started-at="2023-05-31T11:46:09 IST" name="createTourPackageTest" finished-at="2023-05-31T11:46:52 IST" duration-ms="43367" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[HappyJourney1165 Package is created ]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- createTourPackageTest -->
+        <test-method is-config="true" signature="config_AM()[pri:0, instance:com.travel.ujetix.TourPackage.Test.CreateTourPackageTest@3e694b3f]" started-at="2023-05-31T11:46:52 IST" name="config_AM" finished-at="2023-05-31T11:46:54 IST" duration-ms="1242" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- config_AM -->
+        <test-method is-config="true" signature="config_AC()[pri:0, instance:com.travel.ujetix.TourPackage.Test.CreateTourPackageTest@3e694b3f]" started-at="2023-05-31T11:46:54 IST" name="config_AC" finished-at="2023-05-31T11:46:55 IST" duration-ms="1184" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- config_AC -->
+      </class> <!-- com.travel.ujetix.TourPackage.Test.CreateTourPackageTest -->
+      <class name="com.travel.ujetix.TourPackage.Test.CreatePackageAndEnquiryForItTest">
+        <test-method is-config="true" signature="config_BC()[pri:0, instance:com.travel.ujetix.TourPackage.Test.CreatePackageAndEnquiryForItTest@65fb9ffc]" started-at="2023-05-31T11:45:53 IST" name="config_BC" finished-at="2023-05-31T11:45:59 IST" duration-ms="5719" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- config_BC -->
+        <test-method is-config="true" signature="config_BM()[pri:0, instance:com.travel.ujetix.TourPackage.Test.CreatePackageAndEnquiryForItTest@65fb9ffc]" started-at="2023-05-31T11:45:59 IST" name="config_BM" finished-at="2023-05-31T11:46:06 IST" duration-ms="6764" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- config_BM -->
+        <test-method signature="createPackageAndEnquiryForItTest()[pri:0, instance:com.travel.ujetix.TourPackage.Test.CreatePackageAndEnquiryForItTest@65fb9ffc]" started-at="2023-05-31T11:46:06 IST" name="createPackageAndEnquiryForItTest" finished-at="2023-05-31T11:46:43 IST" duration-ms="37359" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Package is present]]>
+            </line>
+            <line>
+              <![CDATA[Enquiry is created]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- createPackageAndEnquiryForItTest -->
+        <test-method is-config="true" signature="config_AM()[pri:0, instance:com.travel.ujetix.TourPackage.Test.CreatePackageAndEnquiryForItTest@65fb9ffc]" started-at="2023-05-31T11:46:43 IST" name="config_AM" finished-at="2023-05-31T11:46:49 IST" duration-ms="5185" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- config_AM -->
+        <test-method is-config="true" signature="config_AC()[pri:0, instance:com.travel.ujetix.TourPackage.Test.CreatePackageAndEnquiryForItTest@65fb9ffc]" started-at="2023-05-31T11:46:49 IST" name="config_AC" finished-at="2023-05-31T11:46:50 IST" duration-ms="1318" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- config_AC -->
+      </class> <!-- com.travel.ujetix.TourPackage.Test.CreatePackageAndEnquiryForItTest -->
+      <class name="com.travel.ujetix.ManageBooking.Test.ConfirmBookingAsAdminAnVerifyAsUserTest">
+        <test-method is-config="true" signature="config_BC()[pri:0, instance:com.travel.ujetix.ManageBooking.Test.ConfirmBookingAsAdminAnVerifyAsUserTest@59474f18]" started-at="2023-05-31T11:45:53 IST" name="config_BC" finished-at="2023-05-31T11:46:00 IST" duration-ms="6347" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- config_BC -->
+        <test-method is-config="true" signature="config_BM()[pri:0, instance:com.travel.ujetix.ManageBooking.Test.ConfirmBookingAsAdminAnVerifyAsUserTest@59474f18]" started-at="2023-05-31T11:46:00 IST" name="config_BM" finished-at="2023-05-31T11:46:05 IST" duration-ms="5263" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- config_BM -->
+        <test-method signature="confirmBookingAsAdminAnVerifyAsUserTest()[pri:0, instance:com.travel.ujetix.ManageBooking.Test.ConfirmBookingAsAdminAnVerifyAsUserTest@59474f18]" started-at="2023-05-31T11:46:05 IST" name="confirmBookingAsAdminAnVerifyAsUserTest" finished-at="2023-05-31T11:46:51 IST" duration-ms="46284" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Booked package Successfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- confirmBookingAsAdminAnVerifyAsUserTest -->
+        <test-method is-config="true" signature="config_AM()[pri:0, instance:com.travel.ujetix.ManageBooking.Test.ConfirmBookingAsAdminAnVerifyAsUserTest@59474f18]" started-at="2023-05-31T11:46:51 IST" name="config_AM" finished-at="2023-05-31T11:46:52 IST" duration-ms="1198" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- config_AM -->
+        <test-method is-config="true" signature="config_AC()[pri:0, instance:com.travel.ujetix.ManageBooking.Test.ConfirmBookingAsAdminAnVerifyAsUserTest@59474f18]" started-at="2023-05-31T11:46:52 IST" name="config_AC" finished-at="2023-05-31T11:46:54 IST" duration-ms="1848" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- config_AC -->
+      </class> <!-- com.travel.ujetix.ManageBooking.Test.ConfirmBookingAsAdminAnVerifyAsUserTest -->
+      <class name="com.travel.ujetix.Issues.Test.CreateIssueAndVerifyAdminRemarkInUserTest">
+        <test-method is-config="true" signature="config_BC()[pri:0, instance:com.travel.ujetix.Issues.Test.CreateIssueAndVerifyAdminRemarkInUserTest@1bb5a082]" started-at="2023-05-31T11:45:53 IST" name="config_BC" finished-at="2023-05-31T11:46:00 IST" duration-ms="6349" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- config_BC -->
+        <test-method is-config="true" signature="config_BM()[pri:0, instance:com.travel.ujetix.Issues.Test.CreateIssueAndVerifyAdminRemarkInUserTest@1bb5a082]" started-at="2023-05-31T11:46:00 IST" name="config_BM" finished-at="2023-05-31T11:46:08 IST" duration-ms="8418" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- config_BM -->
+        <test-method signature="createIssueAndVerifyAdminRemarkInUserTest()[pri:0, instance:com.travel.ujetix.Issues.Test.CreateIssueAndVerifyAdminRemarkInUserTest@1bb5a082]" started-at="2023-05-31T11:46:08 IST" name="createIssueAndVerifyAdminRemarkInUserTest" finished-at="2023-05-31T11:46:51 IST" duration-ms="42691" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Issue Created]]>
+            </line>
+            <line>
+              <![CDATA[Admin login Successful]]>
+            </line>
+            <line>
+              <![CDATA[Remark updated Successfully]]>
+            </line>
+            <line>
+              <![CDATA[User Logout Successful]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- createIssueAndVerifyAdminRemarkInUserTest -->
+        <test-method is-config="true" signature="config_AM()[pri:0, instance:com.travel.ujetix.Issues.Test.CreateIssueAndVerifyAdminRemarkInUserTest@1bb5a082]" started-at="2023-05-31T11:46:51 IST" name="config_AM" finished-at="2023-05-31T11:46:52 IST" duration-ms="1299" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- config_AM -->
+        <test-method is-config="true" signature="config_AC()[pri:0, instance:com.travel.ujetix.Issues.Test.CreateIssueAndVerifyAdminRemarkInUserTest@1bb5a082]" started-at="2023-05-31T11:46:52 IST" name="config_AC" finished-at="2023-05-31T11:46:53 IST" duration-ms="972" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- config_AC -->
+      </class> <!-- com.travel.ujetix.Issues.Test.CreateIssueAndVerifyAdminRemarkInUserTest -->
+      <class name="com.travel.ujetix.SignUp.Test.CreateUserAndUpdateUsernameTest">
+        <test-method is-config="true" signature="config_BC()[pri:0, instance:com.travel.ujetix.SignUp.Test.CreateUserAndUpdateUsernameTest@41d477ed]" started-at="2023-05-31T11:45:53 IST" name="config_BC" finished-at="2023-05-31T11:45:59 IST" duration-ms="6122" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- config_BC -->
+        <test-method is-config="true" signature="config_BM()[pri:0, instance:com.travel.ujetix.SignUp.Test.CreateUserAndUpdateUsernameTest@41d477ed]" started-at="2023-05-31T11:46:00 IST" name="config_BM" finished-at="2023-05-31T11:46:09 IST" duration-ms="9680" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- config_BM -->
+        <test-method signature="createUserAndUpdateUsernameTest()[pri:0, instance:com.travel.ujetix.SignUp.Test.CreateUserAndUpdateUsernameTest@41d477ed]" started-at="2023-05-31T11:46:09 IST" name="createUserAndUpdateUsernameTest" finished-at="2023-05-31T11:46:42 IST" duration-ms="32958" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Account created successfully]]>
+            </line>
+            <line>
+              <![CDATA[Username updated successfully]]>
+            </line>
+            <line>
+              <![CDATA[Logout Successfull]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- createUserAndUpdateUsernameTest -->
+        <test-method is-config="true" signature="config_AM()[pri:0, instance:com.travel.ujetix.SignUp.Test.CreateUserAndUpdateUsernameTest@41d477ed]" started-at="2023-05-31T11:46:42 IST" name="config_AM" finished-at="2023-05-31T11:46:46 IST" duration-ms="3931" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- config_AM -->
+        <test-method is-config="true" signature="config_AC()[pri:0, instance:com.travel.ujetix.SignUp.Test.CreateUserAndUpdateUsernameTest@41d477ed]" started-at="2023-05-31T11:46:46 IST" name="config_AC" finished-at="2023-05-31T11:46:48 IST" duration-ms="1903" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- config_AC -->
+      </class> <!-- com.travel.ujetix.SignUp.Test.CreateUserAndUpdateUsernameTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

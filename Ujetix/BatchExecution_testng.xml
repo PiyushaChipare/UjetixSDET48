@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite parallel="classes" name="Batch_Suite">
+	
+  <test thread-count="4" parallel="classes" name="Test">
+    <classes>
+      <class name="com.travel.ujetix.Issues.Test.VerifyCreatePackageAndUpdateRemarkOfCreatedIssueTest"/>
+      <class name="com.travel.ujetix.Issues.Test.VerifyCreatePackageAndCheckStatusOfCreatedIssueTest"/>
+      <class name="com.travel.ujetix.ManageBooking.Test.ConfirmBookingAsAdminAnVerifyAsUserTest"/>
+      <class name="com.travel.ujetix.TourPackage.Test.CreateTourPackageTest"/>
+      <class name="com.travel.ujetix.TourPackage.Test.CreatePackageAndEnquiryForItTest"/>
+      <class name="com.travel.ujetix.Issues.Test.CreateIssueAndVerifyAdminRemarkInUserTest"/>
+      <class name="com.travel.ujetix.TourPackage.Test.BookTourPackageTest"/>
+      <class name="com.travel.ujetix.SignUp.Test.CreateUserAndUpdateUsernameTest"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Batch_Suite -->
