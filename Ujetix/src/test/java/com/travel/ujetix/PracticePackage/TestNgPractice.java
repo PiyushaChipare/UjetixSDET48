@@ -6,7 +6,7 @@ import org.testng.annotations.Test;
 public class TestNgPractice 
 {
 	//welcome to practice1 all
-	//Hello Hii and bye byee
+	//Hello Hii
 	@Test(groups = "trial")
 	public void update()
 	{
