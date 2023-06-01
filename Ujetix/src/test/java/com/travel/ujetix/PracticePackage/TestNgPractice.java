@@ -6,7 +6,7 @@ import org.testng.annotations.Test;
 public class TestNgPractice 
 {
 	//welcome to practice1 all
-	//Hello
+	//Hello Hii and bye
 	@Test(groups = "trial")
 	public void update()
 	{
@@ -26,7 +26,8 @@ public class TestNgPractice
 	}
 	
 	@Test(dependsOnGroups = "trial")
-	public void demo() {
+	public void demo() 
+	{
 
 		if(true)
 			System.out.println("true");
